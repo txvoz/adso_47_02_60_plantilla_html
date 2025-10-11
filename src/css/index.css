@@ -107,3 +107,52 @@ div#main section.slide img {
     width: 700px;
     height: 350px;
 }
+
+.btn {
+    position: absolute;
+    background-color: rgba(109, 113, 110, 0.9);
+    font-size: 30px;
+    font-weight: bold;
+    padding: 15px;
+    cursor: pointer;
+    top: 130px;
+}
+
+.btn.prev {
+    border-top-left-radius: 30%;
+    border-bottom-left-radius: 30%;
+    left: -25px;
+}
+
+.btn.next {
+     border-top-right-radius: 30%;
+    border-bottom-right-radius: 30%;
+    right: -25px;
+}
+
+
+.cols {
+    position: relative;
+    border-top: 1px dotted #999;
+}
+
+article.col {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 303px;
+    padding: 30px;
+}
+
+article.col header {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+article.col:first-child {
+    border-right: 1px dotted #999;
+}
+
+article.col:last-child {
+    border-left: 1px dotted #999;
+}
