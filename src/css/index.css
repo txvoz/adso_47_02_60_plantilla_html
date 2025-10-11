@@ -63,6 +63,15 @@
     background-color: #537a00;
 }
 
+#content-main footer div {
+    position: relative;
+    margin: 40px auto;
+    color: #fff;
+    width: 400px;
+    height: auto;
+    text-align: center;
+}
+
 
 nav ul li{
     position: relative;
@@ -155,4 +164,19 @@ article.col:first-child {
 
 article.col:last-child {
     border-left: 1px dotted #999;
+}
+
+#main .content {
+    position: relative;
+    padding: 50px;
+}
+
+header h2 {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+p {
+    position: relative;
+    margin-bottom: 10px;
 }

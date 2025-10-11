@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/index.css" />
+    <title>Planitlla web 2025</title>
+</head>
+<body>
+
+    <div id="content-main">
+
+        <header class="main">
+            <div class="logo"></div>
+            <h2 class="slogan">ADSO, pensando para programar!</h2>
+        </header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#" class="activo"> Inicio </a>
+                </li>
+                <li>
+                    <a href="#"> Mision </a>
+                </li>
+                <li>
+                    <a href="#"> Vision </a>
+                </li>
+                <li>
+                    <a href="#"> Nosotros </a>
+                </li>
+                <li>
+                    <a href="#"> Contacto </a>
+                </li>
+            </ul>
+        </nav>
+
+        <div id="main">
+
+        </div>
+
+        <footer>
+            <div> Derechos reservados por el SENA, Regional Cauca, Popayán, Colombia.</div>
+        </footer>
+    </div>
+</body>
+</html>
