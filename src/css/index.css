@@ -225,6 +225,12 @@ input,textarea  {
     border: 1px solid #999;
 }
 
+/*
+input:invalid, textarea:invalid {
+  background-color: pink;
+}
+*/
+
 button {
     border-radius: 5px;
     padding: 15px;
@@ -262,4 +268,15 @@ button.secundario:hover {
 button.secundario:active {
     color: #b5b487;
     background-color: #303115;
+}
+
+iframe.gmap {
+    position: absolute;
+    top: 70px;
+    right: 10px;
+    border: 0;
+    width: 280px;
+    height: 310px;
+    border-radius: 20px;
+    border: 3px solid #666;
 }
