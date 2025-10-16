@@ -180,3 +180,103 @@ p {
     position: relative;
     margin-bottom: 10px;
 }
+
+p audio.left, p img.left, p video.left {
+    float: left; 
+    margin: 10px 10px 10px 0;
+}
+
+p audio.right, p img.right, p video.right {
+    float: right;
+    margin: 10px 0 10px 10px;
+}
+
+
+form#contacto {
+    width: 500px;
+    position: relative;
+    margin: 2px auto;
+    border: 1px dotted #999;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+
+form#contacto h2 {
+    margin-bottom: 20px;
+}
+
+form#contacto div {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+form#contacto label {
+    display: inline-block;
+    vertical-align: top;
+    width: 100px;
+}
+
+
+input,textarea  {
+    width: 200px;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #999;
+}
+
+/*
+input:invalid, textarea:invalid {
+  background-color: pink;
+}
+*/
+
+button {
+    border-radius: 5px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+
+button.primario {
+    border: 1px solid #366800;
+    background-color: #537a00;
+    color: #fff;
+}
+
+button.primario:hover {
+    color: #366800;
+    background-color: #b5cf7b;
+}
+
+button.primario:active {
+    color: #121b0a;
+    background-color: #eaffbc;
+}
+
+button.secundario {
+    border: 1px solid #366800;
+    background-color: #ddd600;
+    color: #366800;
+}
+
+button.secundario:hover {
+    background-color: #9f9c46;
+    color: #ddd600;
+}
+
+button.secundario:active {
+    color: #b5b487;
+    background-color: #303115;
+}
+
+iframe.gmap {
+    position: absolute;
+    top: 70px;
+    right: 10px;
+    border: 0;
+    width: 280px;
+    height: 310px;
+    border-radius: 20px;
+    border: 3px solid #666;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/index.css" />
+    <title>Planitlla web 2025</title>
+</head>
+
+<body>
+
+    <div id="content-main">
+
+        <header class="main">
+            <div class="logo"></div>
+            <h2 class="slogan">ADSO, pensando para programar!</h2>
+        </header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html"> Inicio </a>
+                </li>
+                <li>
+                    <a href="mision.html"> Mision </a>
+                </li>
+                <li>
+                    <a href="vision.html"> Vision </a>
+                </li>
+                <li>
+                    <a href="#"> Nosotros </a>
+                </li>
+                <li>
+                    <a href="contacto.html" class="activo"> Contacto </a>
+                </li>
+                <li>
+                    <a href="lista.html"> Lista </a>
+                </li>
+            </ul>
+        </nav>
+
+        <div id="main">
+
+            <div class="content">
+
+                <form id="contacto" action="http://google.com" method="get">
+
+                    <h2>Formulario de contacto</h2>
+
+                    <!--
+                    <div>
+                        <label for="q">Consulta de google</label>
+                        <input type="text" name="q" id="q" >
+                    </div>
+                    -->
+
+                    <div>
+                        <label for="txtNombre">Nombre</label>
+                        <input type="text" name="txtNombre" id="txtNombre" required>
+                    </div>
+
+                    <div>
+                        <label for="inpEmail">Correo</label>
+                        <input type="email" name="inpEmail" id="inpEmail" required>
+                    </div>
+
+                    <div>
+                        <label for="inpTelefono">Telefono</label>
+                        <input type="number" name="inpTelefono" id="inpTelefono">
+                    </div>
+
+                    <div>
+                        <label for="txtTitulo">Titulo</label>
+                        <input type="text" name="txtTitulo" id="txtTitulo" required>
+                    </div>
+
+                    <div>
+                        <label for="txtDescripcion">Descripcion</label>
+                        <textarea style="width: 471px; height: 65px;" name="txtDescripcion"
+                            id="txtDescripcion" required></textarea>
+                    </div>
+
+                    <iframe class="gmap"
+                    width="450"
+                    height="250"
+                    frameborder="0" style="border:0"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyD4iE2xVSpkLLOXoyqT-RuPwURN3ddScAI
+&amp;q=Popayán,Cauca,Colombia"
+                    allowfullscreen>
+                    </iframe>
+
+                    <button type="submit" class="primario">Enviar</button>
+                    <button type="reset" class="secundario">Limpiar</button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+        <footer>
+            <div> Derechos reservados por el SENA, Regional Cauca, Popayán, Colombia.</div>
+        </footer>
+    </div>
+</body>
+
+</html>
