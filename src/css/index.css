@@ -180,3 +180,13 @@ p {
     position: relative;
     margin-bottom: 10px;
 }
+
+p audio.left, p img.left, p video.left {
+    float: left; 
+    margin: 10px 10px 10px 0;
+}
+
+p audio.right, p img.right, p video.right {
+    float: right;
+    margin: 10px 0 10px 10px;
+}
