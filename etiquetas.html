@@ -34,7 +34,10 @@
                     <a href="contacto.html"> Contacto </a>
                 </li>
                 <li>
-                    <a href="lista.html" class="activo"> Lista </a>
+                    <a href="lista.html"> Lista </a>
+                </li>
+                <li>
+                    <a href="etiquetas.html" class="activo"> Etiquetas </a>
                 </li>
             </ul>
         </nav>
@@ -43,91 +46,110 @@
             
             <div class="content">
 
-                <h2>Lista de elementos</h2>
+                <h2>Lista de etiquetas</h2>
                 <table>
                     <thead>
                         <tr>
-                            <th>Id</th>
                             <th>Nombre</th>
-                            <th>Correo</th>
-                            <th>Telefono</th>
-                            <th>Direccion</th>
-                            <th>Avatar</th>
-                            <th>Opts</th> 
+                            <th>Estructura</th>
+                            <th>Descripcion</th>
+                            <th>Propiedades</th>
+                            <th>Ejemplo</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>1</td>
-                            <td>Juan</td>
-                            <td>juan@test.com</td>
-                            <td>3151234567</td>
-                            <td>Call siempre viva 123</td>
-                            <td>avatar</td>
+                            <td>Img - Imagen</td>
                             <td>
-                                <div class="icon disabled icon-editar"></div>
-                                <div class="icon disabled icon-eliminar"></div>
+                                < img src="[va la fuente de la imagen]" />
                             </td>
+                            <td>
+                                Esta etiqueta esta diseñada para implementar en el documento web un marco para montar, 
+                                un recurso visual tipo imagen con extension png, jpg, jpeg y otros. 
+                            </td>
+                            <td>
+                                <div>SRC: Atributo para poner la fuente del recurso</div>
+                                <div>WITH: En esta propiedad se debe establecer el ancho del marco para 
+                                    la imagen.
+                                </div>
+                            </td>
+                            <td>
+                                <img src="src/assets/img/mision-sena.jpg" width="60px" />
+                            </td>
+                        
                         </tr>
                         <tr>
-                            <td>1</td>
-                            <td>Juan</td>
-                            <td>juan@test.com</td>
-                            <td>3151234567</td>
-                            <td>Call siempre viva 123</td>
-                            <td>avatar</td>
+                            <td>Audio</td>
                             <td>
-                                <div class="icon icon-editar"></div>
-                                <div class="icon icon-eliminar"></div>
+                                < audio controls src="[va la fuente del audio]" />
                             </td>
+                            <td>
+                                Esta etiqueta esta diseñada para implementar en el documento web un marco para montar, 
+                                un recurso de audio con extension mp3. 
+                            </td>
+                            <td>
+                                <div>SRC: Atributo para poner la fuente del recurso</div>
+                                <div>controls: Atributo para ver el diseño visual del elemento en el navegador</div>
+                            </td>
+                            <td>
+                                <audio controls src="src/assets/audios/historia_sena.mp3" width="60px" />
+                            </td>
+                        
                         </tr>
                         <tr>
-                            <td>1</td>
-                            <td>Juan</td>
-                            <td>juan@test.com</td>
-                            <td>3151234567</td>
-                            <td>Call siempre viva 123</td>
-                            <td>avatar</td>
+                            <td>Input type[text]</td>
                             <td>
-                                <div class="icon icon-editar"></div>
-                                <div class="icon icon-eliminar"></div>
+                                < input type="text" />
                             </td>
+                            <td>
+                                Esta etiqueta tiene la funcionalidad de servir como
+                                entrada de datos de tipo de texto en un form 
+                            </td>
+                            <td>
+                                <div>SRC: Atributo para poner la fuente del recurso</div>
+                                <div>controls: Atributo para ver el diseño visual del elemento en el navegador</div>
+                            </td>
+                            <td>
+                                <input type="text" placeholder ="Ingrese un texto..." />
+                            </td>
+                        
                         </tr>
                         <tr>
-                            <td>1</td>
-                            <td>Juan</td>
-                            <td>juan@test.com</td>
-                            <td>3151234567</td>
-                            <td>Call siempre viva 123</td>
-                            <td>avatar</td>
+                            <td>Input type[date]</td>
                             <td>
-                                <div class="icon icon-editar"></div>
-                                <div class="icon icon-eliminar"></div>
+                                < input type="date" />
                             </td>
+                            <td>
+                                Esta etiqueta tiene la funcionalidad de servir como
+                                entrada de datos de tipo de texto en un form 
+                            </td>
+                            <td>
+                                <div>SRC: Atributo para poner la fuente del recurso</div>
+                                <div>controls: Atributo para ver el diseño visual del elemento en el navegador</div>
+                            </td>
+                            <td>
+                                <input type="date"  />
+                            </td>
+                        
                         </tr>
+
                         <tr>
-                            <td>1</td>
-                            <td>Juan</td>
-                            <td>juan@test.com</td>
-                            <td>3151234567</td>
-                            <td>Call siempre viva 123</td>
-                            <td>avatar</td>
+                            <td>Input type[color]</td>
                             <td>
-                                <div class="icon icon-editar"></div>
-                                <div class="icon icon-eliminar"></div>
+                                < input type="color" />
                             </td>
-                        </tr>
-                        <tr>
-                            <td>1</td>
-                            <td>Juan</td>
-                            <td>juan@test.com</td>
-                            <td>3151234567</td>
-                            <td>Call siempre viva 123</td>
-                            <td>avatar</td>
                             <td>
-                                <div class="icon icon-editar"></div>
-                                <div class="icon icon-eliminar"></div>
+                                Esta etiqueta tiene la funcionalidad de servir como
+                                entrada de datos de tipo de texto en un form 
                             </td>
+                            <td>
+                                <div>SRC: Atributo para poner la fuente del recurso</div>
+                                <div>controls: Atributo para ver el diseño visual del elemento en el navegador</div>
+                            </td>
+                            <td>
+                                <input type="color"  />
+                            </td>
+                        
                         </tr>
                     </tbody>
                 </table>
