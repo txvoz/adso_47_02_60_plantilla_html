@@ -1,0 +1,53 @@
+.icon {
+    position: relative;
+    width: 20px;
+    height: 23px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+    margin: 2px 3px;
+}
+
+.icon.disabled  {
+    cursor: not-allowed;
+}
+
+.icon.disabled.icon-editar, 
+.icon.disabled.icon-editar:hover, 
+.icon.disabled.icon-editar:active
+ {
+    background-image: url(../assets/img/icono-editar-deshabilitado.png) !important;
+} 
+
+.icon.icon-editar {
+    background-image: url(../assets/img/icono-editar.png);
+}
+
+.icon.icon-editar:hover {
+    background-image: url(../assets/img/icono-editar-hover.png);
+}
+
+.icon.icon-editar:active {
+    background-image: url(../assets/img/icono-editar-active.png);
+}
+
+.icon.icon-eliminar {
+    background-image: url(../assets/img/icono-eliminar.png);
+}
+
+.icon.icon-eliminar:hover {
+    background-image: url(../assets/img/icono-eliminar-hover.png);
+}
+
+.icon.icon-eliminar:active {
+    background-image: url(../assets/img/icono-eliminar-active.png);
+}
+
+.icon.disabled.icon-eliminar, 
+.icon.disabled.icon-eliminar:hover, 
+.icon.disabled.icon-eliminar:active
+ {
+    background-image: url(../assets/img/icono-eliminar-deshabilitado.png) !important;
+} 
