@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .negro {
+            background-color: black;
+            color: white;
+        }
+
+        .naranja {
+            background-color: orange;
+        }
+
+        .verde {
+            background-color: greenyellow;
+        }
+
+        .azul {
+            background-color: blue;
+        }
+
+        .red {
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+
+    <output id="salida" style="">
+
+    </output>
+
+    <script>
+
+        //E-P-S, Entrada, Proceso, Salida
+
+        /*
+        - Si el rango de edad esta entre 0 y 17, poner un mensaje de no valido y color naranja
+        - Si el rango de edad esta entre 18 y 25, poner un color de fondo verde
+        - Si el rango de edad esta entre 26 y 40, poner un color de fondo azul
+        - Si el rango de edad es superior a 40 , poner un color de fondo rojo
+        */
+
+        //Definicion de variables
+        var nombre, edad, genero;
+
+        //Entrada de variables
+        nombre = prompt("Ingrese el nombre:");
+        edad = prompt("Ingrese la edad:");
+        edad = parseInt(edad);
+        genero = prompt("Ingrese el genero");
+
+        var styleClass = "";
+        var contenido = "";
+        var mensaje = "";
+
+        //Proceso
+        //tabla de verdad 
+        if (edad <= 17) {
+            styleClass = "naranja";
+            mensaje += "La informacion ingresada no es valida!";
+        } else {
+            mensaje += "El nombre del usuario es: <b> " + nombre.toUpperCase() + "</b> <br>";
+            mensaje += "La edad de " + nombre + " es: <b> " + edad + "</b> <br>";
+            mensaje += "El genero de " + nombre + " es: <b> " + genero + "</b>";
+
+            if (edad >= 18 && edad <= 25) {
+                styleClass = "verde";
+            } else {
+
+                if (edad >= 26 && edad <= 40) {
+                    styleClass = "azul";
+                }
+                else {
+                    styleClass = "red";
+                }
+
+            }
+
+        }
+
+        contenido += "<div class='" + styleClass + "'>";
+        contenido += mensaje;
+        contenido += "</div>";
+
+        //Salida
+        var salida = document.getElementById("salida");
+        salida.innerHTML = contenido;
+
+    </script>
+
+</body>
+
+</html>
