@@ -281,6 +281,11 @@ iframe.gmap {
     border: 3px solid #666;
 }
 
+<<<<<<< HEAD
+.login {
+    background-color: red;
+=======
 .saludo {
     background-color: #000;
+>>>>>>> main
 }
